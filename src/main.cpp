@@ -1,18 +1,32 @@
 #include <Arduino.h>
 
 // put function declarations here:
-int myFunction(int, int);
+//Definierung
+typedef enum ()
+{SAFE_LOCKED; 
+LEVEL_ONE_UNLOCKED;
+LEVEL_TWO_UNLOCKED;
+LEVEL_THREE_UNLOCKED;
+SAFE_OPEN;
+SAFE_LOCKED} Zustand_1;
 
-void setup() {
-  // put your setup code here, to run once:
-  int result = myFunction(2, 3);
-}
+typedef enum {
+  INPUT_ONE_ACCEPTED;
+  INPUT_TWO_ACCEPTED;
+  INPUT_THREE_ACCEPTED;
+  OPEN_DOOR;
+  CLOSE_DOOR;
+  INPUT_REFUSED
+} BEDINGUNG_1;
 
-void loop() {
-  // put your main code here, to run repeatedly:
-}
 
-// put function definitions here:
-int myFunction(int x, int y) {
-  return x + y;
-}
+//Globale Variable
+ZUSTAND_1 = CLOSE_DOOR;  
+
+//FUNKTION 
+void 
+
+
+
+
+void high_security_safe ()
