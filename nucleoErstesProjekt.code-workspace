@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../nucleoErstesProjekt"
+		},
+		{
+			"name": "nucleo-f401re_led_blink",
+			"path": "../nucleo-f401re_led_blink"
+		}
+	],
+	"settings": {}
+}
